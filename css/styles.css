@@ -184,6 +184,9 @@ right: 20px;
   background-repeat: no-repeat;
 }
 #text{
+  position: absolute;
+  top: 45%;
+  right: 25%;
   font-size: 10vw;
 }
 
