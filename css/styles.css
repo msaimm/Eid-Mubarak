@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rancho&display=swap');
-@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
 *{
   margin: 0;
   padding: 0;
@@ -189,7 +188,7 @@ right: 20px;
 }
 
 .sec{
-  padding: 20px;
+  padding: 40px;
 }
 
 .sec h2{
@@ -198,7 +197,7 @@ right: 20px;
 
 .sec p{
   font-size: 0.9em;
-  line-height: 1.7em;
+  line-height: 2em;
 }
 
 section img#stars2{
@@ -214,6 +213,3 @@ section img#masjid{
 
 }
 
-.p{
-  max-width: 20%;
-}
