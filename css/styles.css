@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Rancho&display=swap');
+@import url("https://cdn.linearicons.com/free/1.0.0/icon-font.min.css");
 *{
   margin: 0;
   padding: 0;
@@ -45,7 +46,7 @@ html, body{
 #header .navigation li a{
 
   text-decoration: none;
-  padding: 6px 15px;
+  padding: 6px 20px;
   color: #fff;
   border-radius: 20px;
 }
@@ -87,13 +88,15 @@ section img#stars2{
   display: none;
 }
 
+
+
 #text{
   position: absolute;
-  top: 50%;
-  right: -100%;
+  top: 55%;
+  right: 25%;
   transform: translateY(-50%);
   color: #fff;
-  font-size: 10vw;
+  font-size: 7vw;
   white-space: nowrap;
   text-shadow: 0 10px 15px rgba(0, 0, 0, 0.25);
   font-family: 'Rancho',cursive;
@@ -132,7 +135,7 @@ section img#stars2{
   display: none;
 }
 section{
-  height: 100vh;
+  height: 70vh;
 }
 
 #header .navigation.active{
@@ -153,10 +156,10 @@ section{
 }
 
 #header .navigation li a{
-  font-size: 1.5em;
-  margin: 5px 0;
-  border-radius: 30px;
-  display: inline-block;
+  font-size: 3em;
+    margin: 5px 0;
+    border-radius: 60px;
+    display: inline-block;
 }
 
 
@@ -180,6 +183,9 @@ right: 20px;
   background-size: 25px;
   background-position: center;
   background-repeat: no-repeat;
+}
+#text{
+  font-size: 10vw;
 }
 
 .sec{
@@ -206,4 +212,8 @@ section img#masjid{
   transform: translateY(-5px);
 }
 
+}
+
+.p{
+  max-width: 20%;
 }
