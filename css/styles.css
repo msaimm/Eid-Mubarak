@@ -122,10 +122,11 @@ section img#stars2{
 @media (max-width: 992px) {
 
 #header{
-  padding: 20px;
+      padding: 50px 40px;
+
 }
 #header .logo{
-  font-size: 1.5em;
+  font-size: 4em;
 }
 #header .navigation{
   display: none;
@@ -161,14 +162,14 @@ section{
 
 .toggle{
   position: relative;
-  width: 30px;
-  height: 30px;
-  cursor: pointer;
-  background: url('../images/menu.png');
-  background-size: 30px;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 10000;
+width: 100px;
+height: 100px;
+cursor: pointer;
+background: url(../images/menu.png);
+background-size: 100px;
+background-position: center;
+background-repeat: no-repeat;
+z-index: 10000;
 }
 .toggle.active
 {
