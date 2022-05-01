@@ -195,10 +195,12 @@ right: 20px;
 }
 
 .sec h2{
+  padding-top: 20px;
   font-size: 1.5em;
 }
 
 .sec p{
+  
   font-size: 0.9em;
   line-height: 2em;
 }
